@@ -1,0 +1,18 @@
+package binaryHandling.utils;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import binaryHandling.CoreBanking;
+
+public class BankUtils {
+	
+	
+	public Map<Integer, CoreBanking> populateBank()
+	{
+		Map<Integer, CoreBanking> map = new HashMap<>();
+		
+	}
+	
+
+}

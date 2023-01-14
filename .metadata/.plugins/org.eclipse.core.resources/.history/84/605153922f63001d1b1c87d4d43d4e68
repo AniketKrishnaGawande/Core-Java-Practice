@@ -1,0 +1,32 @@
+package charHandling;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.Scanner;
+
+public class ReadFile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("enter file name :: ");
+		// javac --> bufferReader --> fileReader --> file.txt
+
+		try (Scanner sc = new Scanner(System.in);
+				BufferedReader br = new BufferedReader(new FileReader(sc.nextLine()));) {
+			String s;
+			while(s= br.readLine()!=null)
+			{
+				System.out.println(s);
+			}
+			
+			
+			
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

@@ -1,0 +1,53 @@
+package tester;
+
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import com.core.Customer;
+import com.core.enums.ServicePlan;
+
+import exception.CustomerException;
+import static validation.ValidationClass.*;
+
+public class Tester {
+
+	public static void main(String[] args) {
+
+		try (Scanner sc = new Scanner(System.in)) {
+			ArrayList<Customer> customers = new ArrayList<>(); // empty ArrayList created size = 0 capacity 10
+// if we want to search customer using primary key use contains indexof
+			try {
+				boolean exit = false;
+				do {
+
+					System.out.print(
+							"1. Register Customer\n 2.Display details of all registered customers\n3. Customer login\n 4. Change Password\n5. Unsubscribe Customer\n6. Display name of customers having dob between specific dates /n7. Display all the customer details ,who have chosen specific plan");
+					switch (sc.nextInt()) {
+					case 1:
+						System.out.println("enter name, email id, password,dob,plan");
+					      customers.add( validateAllDetails(customers, sc.next(), sc.next(), sc.next(),
+									sc.next(), sc.next()));
+					      break;
+					case 2: System.out.println(customers);
+						break;
+					case 3:
+					      // cust login
+					     
+					
+					
+					
+					
+					}// switch ends
+				} while (!exit);// so ends
+			} // end of switch try block
+			catch (CustomerException excp) {
+				System.out.println(excp.getMessage());
+			}
+
+		} // try source ends
+
+	}// main ends
+
+}

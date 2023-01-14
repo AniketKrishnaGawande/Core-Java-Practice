@@ -1,0 +1,21 @@
+package fruitBasket;
+
+import java.util.Iterator;
+import java.util.List;
+
+public class Numbers {
+
+	public <T extends Number & Comparable<T>> T findmaxno(List<T> list) {
+		T temp = list.get(0);
+		Iterator<T> itr = list.iterator();
+
+		while (itr.hasNext()) {
+			if (((T) list).compareTo(temp) > 0) {
+				temp = itr.next();
+			}
+		}
+
+		return null;
+	}
+
+}

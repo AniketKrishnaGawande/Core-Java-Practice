@@ -1,0 +1,16 @@
+package fruitBasket;
+
+import java.util.ArrayList;
+
+public class Numbers {
+
+	public static <T extends Number & Comparable<T> > T findmaxno(ArrayList<T> list) {
+		T temp = list.get(0);
+		for (int i = 1; i < list.size(); i++) {
+			if (temp.compareTo(list.get(i)) < 0) {
+				temp = list.get(i);
+			}
+		}
+		return temp;
+}
+}

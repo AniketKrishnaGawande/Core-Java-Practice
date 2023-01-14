@@ -1,0 +1,27 @@
+package binaryHandling;
+
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+import java.util.Map;
+import java.util.Scanner;
+
+import static binaryHandling.utils.BankUtils.*;
+
+public class Serialization {
+
+	public static void main(String[] args) {
+
+		Map<Integer, CoreBanking> map = populateBank();
+
+		// javac -- oos -- file.txt
+		try (Scanner sc = new Scanner(System.in);
+				ObjectOutputStream obj = new ObjectOutputStream(new FileOutputStream(sc.next()));) {
+//OOS  having small buffered memory
+			obj.writeObject(map); // write whole map into file in binary form
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;libraryException.LibraryEception.java&apos; to &apos;LibraryException.java&apos;&#x0D;&#x0A;- Original project: &apos;libraryManagement&apos;&#x0D;&#x0A;- Original element: &apos;libraryException.LibraryEception.java&apos;&#x0D;&#x0A;- Renamed element: &apos;libraryException.LibraryException.java&apos;" description="Rename compilation unit &apos;LibraryEception.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;libraryException{LibraryEception.java" name="LibraryException.java" references="false" stamp="1667554635509" version="1.0"/>
+</session>

@@ -1,0 +1,19 @@
+package nodeStream;
+
+import java.io.BufferedOutputStream;
+import java.io.FileOutputStream;
+import java.util.Scanner;
+
+public class CharReader {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Enter name of file :: ");
+	try(Scanner sc = new Scanner(System.in)
+			BufferedOutputStream br = new BufferedOutputStream(new FileOutputStream(sc.nextLine()))
+			)
+	
+
+	}
+
+}

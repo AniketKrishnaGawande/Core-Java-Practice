@@ -1,0 +1,38 @@
+package fruitBasket;
+
+import java.lang.module.FindException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.LinkedHashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+public class TestNumber {
+	
+	public static void main( String [] args)
+	{
+		/*
+		 * ArrayList<Integer> intList = new ArrayList<>(); Collections.addAll(intList,
+		 * 12,25,64,2,45,2,6,4,8,2,36); System.out.println(intList);
+		 * 
+		 * System.out.println(Numbers.findmaxno(intList)); List<Double> doubleList = new
+		 * LinkedList<>(); Collections.addAll(doubleList,
+		 * 10.2,21.3,52.3,65.2,15.4,85.0,99.9);
+		 * System.out.println(Numbers.findmaxno(doubleList));
+		 */
+		
+		Map<Integer, String> maplist = new LinkedHashMap<>();
+		
+		maplist.put(10,"ten");
+		maplist.put(10,"eleven");
+		maplist.put(10,"one");
+		maplist.put(10,"two");
+		maplist.put(10,"three");
+		maplist.put(10,"four");
+		maplist.put(10,"five");
+		System.out.println(maplist);
+		
+		
+	}
+
+}

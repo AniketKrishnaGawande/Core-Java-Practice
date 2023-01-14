@@ -1,0 +1,10 @@
+package nodeStream;
+
+public class CharReader {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

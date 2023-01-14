@@ -1,0 +1,27 @@
+package charHandling;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.util.Scanner;
+
+public class CopyFile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Enter file name :: ");
+		//javac --> BR --> Fr --> source file
+		// javac --> BW --> Fw --> dest file
+		try(Scanner sc = new Scanner(System.in);
+				BufferedReader br = new BufferedReader(new FileReader(sc.next()));
+						
+						BufferedWriter bw = new BufferedWriter(new FileWriter(sc.next()))
+				)
+		
+		
+
+	}
+
+}

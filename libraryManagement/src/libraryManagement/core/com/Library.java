@@ -1,0 +1,73 @@
+package libraryManagement.core.com;
+
+import java.io.Serializable;
+import java.time.LocalDate;
+import java.util.HashMap;
+import java.util.TreeMap;
+
+public class Library  implements Serializable
+{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private String title;
+	private Category catType;
+	private double price;
+	private LocalDate date;
+	private String auth_name;
+	private int quantity;
+	
+	//ctor
+	public Library(String title, Category catType, double price, LocalDate date, String auth_name, int quantity) {
+		super();
+		this.title = title;
+		this.catType = catType;
+		this.price = price;
+		this.date = date;
+		this.auth_name = auth_name;
+		this.quantity = quantity;
+
+	}
+
+	@Override
+	public String toString() {
+		return "Library [title=" + title + ", catType=" + catType + ", price=" + price + ", date=" + date
+				+ ", auth_name=" + auth_name + ", quantity=" + quantity + "]";
+	}
+
+	public int getQuantity() {
+
+
+
+		
+		return quantity;
+	}
+
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public Category getCatType() {
+		return catType;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public LocalDate getDate() {
+		return date;
+	}
+
+	public String getAuth_name() {
+		return auth_name;
+	}
+
+	
+
+}

@@ -1,0 +1,17 @@
+package binaryHandling;
+
+import java.io.DataInputStream;
+import java.util.Scanner;
+
+public class ReadBinaryFile {
+
+	public static void main(String[] args) {
+	
+		//java -- doi -- bio  -- fio -- file
+		try(Scanner sc = new Scanner(System.in);
+				DataInputStream
+				)
+
+	}
+
+}

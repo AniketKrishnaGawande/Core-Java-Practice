@@ -1,0 +1,21 @@
+package charHandling;
+
+import java.io.FileReader;
+import java.util.Scanner;
+
+public class SumFile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("enter file name :: ");
+		try(Scanner sc = new Scanner(System.in)
+				Scanner sr = new Scanner(new FileReader(sc.next()))
+				) {
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+
+	}
+
+}

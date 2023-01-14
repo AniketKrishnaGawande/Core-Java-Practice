@@ -1,0 +1,43 @@
+package com.core;
+
+import java.util.Scanner;
+
+public class BankTester {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		boolean exit = false;
+
+		while (!exit) {
+
+			try {
+				System.out.println(
+						"1. Show All Accounts Menu\n2. Create New Account\n3. update Name email for specific BankAccount Menu\n4. Delete"
+								+ " BankAccount for specific BankAccount\n5. WithDraw Amount for specific"
+								+ "BankAccount\n6: Deposite Amount for specific BankAccount\n7. "
+								+ "MoneyTransfer from one account into another account.");
+
+				switch (sc.nextInt()) {
+
+				case 1:
+					
+					System.out.println("Bank Account Details");
+showAlldata();					
+					
+					
+					
+					
+					
+
+				}// switch end
+
+			} // try end
+			catch (Exception e) {
+				e.printStackTrace();
+			}
+		} // while end
+
+	}
+
+}

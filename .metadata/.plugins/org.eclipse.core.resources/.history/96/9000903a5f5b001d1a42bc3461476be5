@@ -1,0 +1,17 @@
+package fruitBasket;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class TestNumber {
+	
+	public static void main( String [] args)
+	{
+		ArrayList<Integer> intList = new ArrayList<>();
+		Collections.addAll(intList, 12,25,64,2,45,2,6,4,8,2,36);
+		System.out.println(intList);
+		
+		
+	}
+
+}

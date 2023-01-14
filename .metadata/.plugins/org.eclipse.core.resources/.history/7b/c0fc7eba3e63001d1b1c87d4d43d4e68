@@ -1,0 +1,17 @@
+package binaryHandling.utils;
+
+import java.util.Map;
+
+import binaryHandling.CoreBanking;
+
+public class BankUtils {
+	
+	
+	public Map<Integer, CoreBanking> populateBank()
+	{
+		
+		
+	}
+	
+
+}

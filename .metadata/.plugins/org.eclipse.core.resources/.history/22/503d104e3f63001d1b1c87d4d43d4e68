@@ -1,0 +1,15 @@
+package binaryHandling;
+
+import java.util.Map;
+import static binaryHandling.utils.*;
+public class Serialization {
+
+	public static void main(String[] args) {
+
+		Map<Integer, CoreBanking> map = populateBank();
+		
+		
+
+	}
+
+}

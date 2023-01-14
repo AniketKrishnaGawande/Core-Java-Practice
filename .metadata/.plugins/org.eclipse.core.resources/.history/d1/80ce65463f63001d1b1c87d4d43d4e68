@@ -1,0 +1,13 @@
+package binaryHandling;
+
+public class Serialization {
+
+	public static void main(String[] args) {
+
+		CoreBanking bank = new CoreBanking();
+		
+		
+
+	}
+
+}

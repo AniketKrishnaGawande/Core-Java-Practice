@@ -1,0 +1,14 @@
+package binaryHandling;
+
+public class WriteBinaryFile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		CoreBanking bank = new CoreBanking(111, "Aniket", 10000);
+		
+		
+
+	}
+
+}

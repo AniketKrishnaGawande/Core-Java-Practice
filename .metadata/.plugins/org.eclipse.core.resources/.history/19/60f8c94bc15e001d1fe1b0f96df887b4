@@ -1,0 +1,15 @@
+package practiceFileHandling;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+
+public class set {
+	public static void main() {
+	List<Integer> list = new ArrayList<>();
+	HashSet<Integer> hm = new HashSet<>(list);
+	Collections.addAll(hm, 10);
+	
+	}
+}

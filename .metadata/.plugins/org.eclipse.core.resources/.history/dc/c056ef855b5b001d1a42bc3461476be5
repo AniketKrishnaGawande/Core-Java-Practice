@@ -1,0 +1,17 @@
+package fruitBasket;
+
+public class Alphanso extends Mango {
+
+	public void taste()
+	{
+		System.out.println("mango taste");
+	}
+	
+	public void mango()
+	{
+		System.out.println("mango");
+	}
+	
+	
+	
+}

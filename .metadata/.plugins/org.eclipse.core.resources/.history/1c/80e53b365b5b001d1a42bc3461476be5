@@ -1,0 +1,13 @@
+package fruitBasket;
+
+public class Mango extends Fruit {
+
+	public void taste()
+	{
+		System.out.println("no specific taste");
+	}
+	// access data extends
+	// add data super
+	
+	
+}
