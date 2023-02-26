@@ -17,7 +17,7 @@ public class Post_gen_HolderTester {
 		
 		
 		
-	//	h1=h2;//uncomment this line to understand : javac detects type mismatch err !
+	//h1=h2;//uncomment this line to understand : javac detects type mismatch err !
 		//Why Generics : To supply run time type info (RTTI) to the compiler : which avoids explicit down
 		//casting n ensures no type mismatch run time errs
 	
